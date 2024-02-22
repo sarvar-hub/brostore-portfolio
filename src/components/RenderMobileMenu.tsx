@@ -44,7 +44,7 @@ const RenderMobileMenu = ({ menu }: { menu: IMenuList[] }) => {
           ) : null}
         </div>
         {isOpen && item.child ? (
-          <ul className="absolute z-10 bg-menu-back w-full h-screen top-0 left-0 px-[15px]">
+          <ul className="absolute z-10 bg-menu-back w-full h-full top-0 left-0 px-[15px]">
             <li className="w-full flex items-center border-[#DADCE0] border-b-[1px]">
               <a
                 onClick={handleToggle}
