@@ -213,7 +213,7 @@ export const menuList: IMenuList[] = [
   },
   {
     id: 10,
-    name: 'Подержанные гаджеты'
+    name: 'Гаджеты Б/У'
   },
   {
     id: 11,

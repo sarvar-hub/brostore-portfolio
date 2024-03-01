@@ -3,3 +3,10 @@ export interface IMenuList {
   name: string;
   child?: IMenuList[];
 }
+
+export interface ISliderMenu {
+  id: number;
+  name: string;
+  type: string;
+  img: string;
+}
