@@ -18,15 +18,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "white",
+        color: "#F5F5F0",
       },
       {
         id: 2,
-        color: "black",
-      },
-      {
-        id: 3,
-        color: "space gray",
+        color: "#505150",
       },
     ],
   },
@@ -47,11 +43,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "pink",
+        color: "#F5F5F0",
       },
       {
         id: 2,
-        color: "green",
+        color: "#505150",
       },
     ],
   },
@@ -72,11 +68,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "pink",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "white",
+        color: "#505150",
       },
     ],
   },
@@ -98,11 +94,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "black",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "white",
+        color: "#505150",
       },
     ],
   },
@@ -123,11 +119,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "white",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "black",
+        color: "#505150",
       },
     ],
   },
@@ -148,11 +144,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "white",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "black",
+        color: "#505150",
       },
     ],
   },
@@ -173,11 +169,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "white",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "black",
+        color: "#505150",
       },
     ],
   },
@@ -198,11 +194,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "black",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "white",
+        color: "#505150",
       },
     ],
   },
@@ -223,11 +219,11 @@ const laptops: ILaptop[] = [
     colors: [
       {
         id: 1,
-        color: "black",
+        color: "#F5F5F5",
       },
       {
         id: 2,
-        color: "white",
+        color: "#505150",
       },
     ],
   },

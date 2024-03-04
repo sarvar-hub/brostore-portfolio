@@ -5,3 +5,22 @@
 .hovered .image-transition {
   opacity: 0.95; 
 }
+
+.o-color {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 1px solid #b5b5b5;
+}
+
+.inside-circle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+.scrollable-div {
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
