@@ -12,6 +12,12 @@ export const menuList: IMenuList[] = [
           {
             id: 1,
             name: 'Macbook Air',
+            child: [
+              {
+                id: 1,
+                name: "Makatumta"
+              }
+            ]
           },
           {
             id: 2,

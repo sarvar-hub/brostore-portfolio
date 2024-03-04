@@ -1,0 +1,17 @@
+
+
+.listItem:not(.isFirst) > div:first-of-type {
+  left: calc(100% + 30px);
+  top: -22px
+}
+
+li.menu-item-has-children:hover:before {
+    width: calc(100% + 65px);
+}
+
+li.menu-item-has-children:hover::before {
+  content: attr(data-item-title);
+  position: absolute;
+  padding: 0 30px;
+  height: 100%;
+}

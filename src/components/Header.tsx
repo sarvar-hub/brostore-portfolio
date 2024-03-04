@@ -1,6 +1,6 @@
 import { FiMenu, FiSearch, FiShoppingCart, FiUser, FiX } from "react-icons/fi";
 import { menuList } from "@/values/menu";
-import RenderMenu from "@/components/RenderMenu";
+import RenderMenu from "./RenderMenu";
 import RenderMobileMenu from "@/components/RenderMobileMenu";
 import { useState } from "react";
 
@@ -42,7 +42,7 @@ const Header = () => {
         </div>
       </div>
       {mobileMenu ? (
-        <div className="absolute bg-menu-back left-0 md:top-[127px] top-[88px] bottom-0 w-screen border-[1px] px-[15px] border-t-[#DADCE0] overflow-x-hidden overflow-y-scroll">
+        <div className="absolute bg-menu-back left-0 md:top-[127px] top-[88px] bottom-0 w-full border-[1px] px-[15px] border-t-[#DADCE0] overflow-x-hidden">
           <RenderMobileMenu menu={menuList} />
         </div>
       ) : null}

@@ -21,7 +21,14 @@ const SubHeader = () => {
           <li className="border-l border-[#DADCE0] cursor-pointer relative">
             <button onClick={() => setIsOpen((prev) => !prev)} className="ml-[15px] flex items-center justify-center font-thin gap-1">Русский {isOpen ? <RiArrowUpSLine /> : <RiArrowDownSLine />}
             </button>
-            {isOpen ? <div className="absolute w-[100px] p-2 shadow-lg bg-white rounded-lg font-thin text-center z-[1]"><ul><li className="hover:text-gray-400"><a href="#">Русский</a></li><li className="hover:text-gray-400"><a href="#">English</a></li></ul></div> : null}
+            {isOpen ? (
+              <div className="absolute w-[100px] p-2 shadow-lg bg-white rounded-lg font-thin text-center z-[60]">
+                <ul>
+                  <li className="hover:text-gray-400"><a href="#">Русский</a></li>
+                  <li className="hover:text-gray-400"><a href="#">English</a></li>
+                </ul>
+              </div>
+            ) : null}
           </li>
         </ul>
       </div>

@@ -66,7 +66,7 @@ const RenderMobileMenu = ({ menu }: { menu: IMenuList[] }) => {
     );
   };
 
-  return <ul className="flex flex-wrap justify-center items-center z-0">{menu.map(renderMenuItem)}</ul>;
+  return <ul className="flex flex-wrap justify-center items-center z-20">{menu.map(renderMenuItem)}</ul>;
 };
 
 export default RenderMobileMenu;
